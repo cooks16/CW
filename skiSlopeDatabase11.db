@@ -1,0 +1,10 @@
+CREATE TABLE bookings (
+    Customer_ID INT,
+    Customer_fName CHAR,
+    Customer_sName CHAR,
+    Session_Date TIME,
+    Session_Time TIME,
+    Checked_In CHAR
+);
+
+insert into bookings (Customer_ID, Customer_fName, Customer_sName, Session_Date, Session_Time, Checked_In) values (0001, 'John', 'Smith', 29/03/17, 12, 'N');
